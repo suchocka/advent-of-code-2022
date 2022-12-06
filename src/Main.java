@@ -1,5 +1,7 @@
 import days.day01.Day01Star1;
 import days.day01.Day01Star2;
+import days.day02.Day02Star1;
+import days.day02.Day02Star2;
 import days.day03.Day03Star1;
 import days.day03.Day03Star2;
 
@@ -11,8 +13,8 @@ import java.util.stream.Stream;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        List<String> fileLines = getFileLines("src/days/day03/input.txt");
-        new Day03Star2().run(fileLines);
+        List<String> fileLines = getFileLines("src/days/day02/input.txt");
+        new Day02Star2().run(fileLines);
     }
 
     private static List<String> getFileLines(String fileName) throws IOException {
