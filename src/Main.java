@@ -4,6 +4,8 @@ import days.day02.Day02Star1;
 import days.day02.Day02Star2;
 import days.day03.Day03Star1;
 import days.day03.Day03Star2;
+import days.day04.Day04Star1;
+import days.day04.Day04Star2;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -13,8 +15,8 @@ import java.util.stream.Stream;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        List<String> fileLines = getFileLines("src/days/day02/input.txt");
-        new Day02Star2().run(fileLines);
+        List<String> fileLines = getFileLines("src/days/day04/input.txt");
+        new Day04Star2().run(fileLines);
     }
 
     private static List<String> getFileLines(String fileName) throws IOException {
